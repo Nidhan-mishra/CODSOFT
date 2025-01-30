@@ -12,13 +12,13 @@ int main()
     std::cin>>num;
         if (num>guess)
         {
-            std::cout<<"bigger"<<"\n";
-            //break;
+            std::cout<<"Your guess is bigger try again"<<"\n";
+            
         }
-        else if (num<guess)
+        if (num<guess)
         {
-            std::cout<<"smaller"<<"\n";
-            //break;
+            std::cout<<"your guess is smaller try again "<<"\n";
+            
         }
         if (num==guess)
         {
